@@ -322,12 +322,18 @@ def infer_on_stream(args, client):
                 client.publish("person", json.dumps({"total": sum_count}))
 
             # Person duration time in the video frame is calculated
-            if current_count < previous_counts:
-                duration = int(time.time() - up_timer)
-                
-                # Publishing the messages to the MQTT server
-                client.publish("person/duration", json.dumps({"duration": duration}))
+            
+            #if current_count < previous_counts:
+            #    duration = int(time.time() - up_timer)
+            #    
+            #    # Publishing the messages to the MQTT server
+            #    client.publish("person/duration", json.dumps({"duration": duration})) # Error code
 
+            if current_count < previous_counts and int(time.time() - start_time) >=1:
+                duration = int(time.time() - start_time) # Corrected code
+                # Publish messages to the MQTT server
+                client.publish("person/duration", json.dumps({"duration": duration}))
+            
             client.publish("person", json.dumps({"count": current_count}))
             previous_counts = current_count
             
