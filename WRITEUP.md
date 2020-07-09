@@ -98,7 +98,6 @@ were as based on the Udacity workspace and the windows system using wsl ubuntu f
 
 ### Model parameters
 
-<<<<<<< HEAD
 The model which are taken from the 
 
 | | Model Name | Model (Pre-Conversion)| Model (Post-Conversion) | Inference (Pre-Conversion)| Inference (Post-conversion)|
@@ -106,13 +105,6 @@ The model which are taken from the
 |SSD MobileNet V2 | 68.34 Mb| 60.05 Mb| 55 ms | 70 ms|
 |SSD Coco faster RCNN Resnet50 | 56.47 mb| 55.41 Mb| 89 ms | 120 ms|
 |SSD Coco faster RCNN Inception v2 | 56.47 Mb| 55.81 Mb| 58 ms| 60 ms| 
-=======
-| Model Name | Model (Pre-Conversion)| Model (Post-Conversion) | Inference (Pre-Conversion)| Inference (Post-conversion)|
-|-|-|-|-|-|
-|SSD MobileNet V2 | 179 Mb| 165 Mb| 55 ms | 70 ms|
-|SSD Coco faster RCNN Resnet50 | 269 mb| 252 Mb| 89 ms | 120 ms|
-|SSD Coco faster RCNN Inception v2 | 142 Mb| 136 Mb| 58 ms| 60 ms| 
->>>>>>> dedc345f821874fe4e52b13ec44eaa233b15008e
 
 The difference between model accuracy pre- and post-conversion was the Model Optimizer is converting models to the Intermediate Representation which cannot be translated to existing Inference Engine layers. 
 
@@ -249,7 +241,6 @@ Please refer README.md file.
 ### Application running on the Edge 
 
 Please refer MyDoc.md file.
-<<<<<<< HEAD
 
 ### Reference 
 1. Custom Layer Guide [link](https://docs.openvinotoolkit.org/latest/_docs_HOWTO_Custom_Layers_Guide.html)
@@ -257,5 +248,3 @@ Please refer MyDoc.md file.
 2. OpenVINO Pre-trained model [link](https://docs.openvinotoolkit.org/2019_R1/_docs_Pre_Trained_Models.html)
 
 3. R.  Berg,  “Real-time people  counting system  using  video camera”,  Department  of  Computer  Science and  Media Technology, Gjøvik University College, Norway, 2007.
-=======
->>>>>>> dedc345f821874fe4e52b13ec44eaa233b15008e
