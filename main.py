@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 ##################################################################################
 #
 #                                 People Counter App Script
 #
 ##################################################################################
 '''
-=======
-"""People Counter App - Nitin Mane"""
-"""
->>>>>>> dedc345f821874fe4e52b13ec44eaa233b15008e
  Copyright (c) 2018 Intel Corporation.
  Permission is hereby granted, free of charge, to any person obtaining
  a copy of this software and associated documentation files (the
@@ -399,8 +394,5 @@ def main():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     #main file for execution
-=======
->>>>>>> dedc345f821874fe4e52b13ec44eaa233b15008e
     main()

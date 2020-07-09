@@ -129,16 +129,5 @@ After going through debugging the code.
 
 #### Video 
 
-<<<<<<< HEAD
 [Video Link](https://youtu.be/L8jQufS6jZY)
 [Updated video Link](https://youtu.be/1PGDqxg2Oh8)
-=======
-I have also added the video link. You can also check the working of the project. 
-
-[Youtube Video Link](https://youtu.be/L8jQufS6jZY)
-
-
-### Edge Device 
-
-I have tried to process the further steps on the raspberry pi 4 but due to inavailablity for the Intel Movidius Neural Compute Stick 2. Its difficult to run on the edge device.
->>>>>>> dedc345f821874fe4e52b13ec44eaa233b15008e
