@@ -329,8 +329,8 @@ def infer_on_stream(args, client):
             #    # Publishing the messages to the MQTT server
             #    client.publish("person/duration", json.dumps({"duration": duration})) # Error code
 
-            if current_count < previous_counts and int(time.time() - start_time) >=1:
-                duration = int(time.time() - start_time) # Corrected code
+            if current_count < previous_counts and int(time.time() - up_timer) >=1:
+                duration = int(time.time() - up_timer) # Corrected code
                 # Publish messages to the MQTT server
                 client.publish("person/duration", json.dumps({"duration": duration}))
             
